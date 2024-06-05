@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('build') {
           steps {
-            echo 'building application with env variable var1 = ${var1}'
+            echo "building application with env variable var1 = ${var1}"
           }
         }
 
